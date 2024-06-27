@@ -8038,6 +8038,9 @@ textarea.form-control-lg {
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  margin-left: 1 rem;
+  min-width: 150 px; 
+  text-align: right;
 }
 
 .text-secondary {
@@ -10957,7 +10960,7 @@ section.resume-section {
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
-  width: 100%;
+  max-width: 100%;
 }
 
 @media (min-width: 768px) {

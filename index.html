@@ -30,7 +30,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards & Certifications</a></li>
                 </ul>
             </div>
         </nav>
@@ -46,7 +46,7 @@
                     <div class="subheading mb-5">
                         <a href="mailto:mscristy@udel.edu">mscristy@udel.edu</a>
                     </div>
-                    <p class="lead mb-5">Currently purusing my master's degree in Computer Engineering at University of Delaware with a focus on AI, Machine Learning, and Data Science</p>
+                    <p class="lead mb-5">Currently purusing my master's degree in Computer Engineering at University of Delaware with a focus on Machine Learning, and Data Science</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/ms-cristy/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/Cristy210"><i class="fab fa-github"></i></a>
@@ -64,9 +64,11 @@
                             <h3 class="mb-0">Graduate Research Assistant</h3>
                             <div class="subheading mb-3">University of Delaware - Electrical and Computer Engineering Department</div>
                             <ul>
-                                <li> Research Focus on Subspace Clustering Techniques for Image color Segmentation</li>
+                                <li> Research Focus is on Subspace Clustering Techniques for Image color Segmentation</li>
                                 <li> Preprocessing high-dimensional image data and using PCA to reduce the dimensionality</li>
                                 <li> Assisting in the identification and analysis of key ML algorithms for subspace clustering through literature review and contributing to the development of research methodologies</li>
+                                <li> Preparing and presenting research findings in weekly lab meetings</li>
+                                <li> Uses CairoMakie for data Visualization</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">February 2024 - Present</span></div>
@@ -129,23 +131,27 @@
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Delaware</h3>
-                            <div class="subheading mb-3">Master of Science</div>
-                            <div>Computer Engineering</div>
-                            <p>GPA: 3.5</p>
+                    <div class="row mb-5">
+                        <div class="col-md-9">
+                            <h3 class="mb-0"> University of Delaware</h3>
+                            <div class="subheading-mb3"> Master of Science</div>
+                            <div> Computer Engineering</div>
+                            <p> GPA: 3.5</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">February 2023 - Present</span></div>
+                        <div class="col-md-3 text-md-right"> 
+                            <span class="text-primary"> February 2023 - Present</span>
+                        </div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Indian Insitute of Information Technology, Tiruchirappalli</h3>
-                            <div class="subheading mb-3">Bachelor of Technology </div>
-                            <div>Electronics & Communication Engineering</div>
-                            <p>GPA: 3.1</p>
+                    <div class="row mb-5">
+                        <div class="col-md-9">
+                            <h3 class="mb-1"> Indian Institute of Information Technology, Tiruchirappalli</h3>
+                            <div class="subheading-mb3"> Bachelor of Technology</div>
+                            <div> Electronics & Communication Engineering</div>
+                            <p> GPA: 3.1</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2017 - May 2021</span></div>
+                        <div class="col-md-3 text-md-right"> 
+                            <span class="text-primary"> August 2017 - May 2021</span>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -155,6 +161,19 @@
                 <div class="resume-section-content">
 
                     <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Course: Soft Materials Innovation</h3>
+                            <div class="subheading mb-3"> Data driven modeling for Polymer Performance </div>
+                            <ul>
+                                <li> Implemented statistical modeling on unstructured spectroscopy datasets to construct quantitative polymer structure-performance relationship</li>
+                                <li> Employed different data cleaning techniques like Binning, Peak Normalization, and PCA </li>
+                                <li> Data Pre-Processing techniques are used for improving accuracy and dimensionality reduction</li>
+                                <li> Implemented linear regression models in analyzing the relationship between polymer structure and performance</li>
+                                <li> Used matplotlib for Data Visualization in terms of scree plots, parity plots</li>
+                            </ul>
+                        </div>
+                    </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Course: Imaging & Deep Learning</h3>
@@ -167,7 +186,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Course: Human-Computer Interaction</h3>
                             <div class="subheading mb-3"> Body Posture Detection using Mediapipe Framework </div>
@@ -176,6 +195,18 @@
                                 <li> Used SciPy Library to calculate the cosine similarity between the correct form and the wrong form of exercise</li>
                                 <li> Utilized postures from Cornell’s Physical Therapy database as our benchmarks for form comparison</li>
                                 <li> Implemented the model for a safer and more efficient training regimen for athletes while working out</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Undergrad - Final Year Porject</h3>
+                            <div class="subheading mb-3"> Smart Irrigation system using IoT</div>
+                            <ul>
+                                <li> Build an IoT model using Proteus 8 Professional simulation software to administer water utilization in the Indian paddy fields</li>
+                                <li> Used moisture sensor to record the soil’s moisture capacity </li>
+                                <li> The Wi-Fi module enabled the model to provide a live update of the water capacity in the field to the farmers</li>
+                                <li> Addressed real-time issues faced by drought and famine conditions</li>
                             </ul>
                         </div>
                     </div>
