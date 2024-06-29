@@ -9294,6 +9294,9 @@ textarea.form-control-lg {
   .text-md-center {
     text-align: center !important;
   }
+  .text-md-right {
+    text-align: right !important;
+  }
 }
 @media (min-width: 992px) {
   .float-lg-start {
@@ -10975,4 +10978,10 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+.date{
+  min-width: 150px;
+  text-align: right;
+  white-space: nowrap;
+  margin-left: 270px; 
 }
