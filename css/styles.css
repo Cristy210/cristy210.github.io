@@ -10985,3 +10985,8 @@ section.resume-section .resume-section-content {
   white-space: nowrap;
   margin-left: 270px; 
 }
+.award_description{
+  font-size: 1.1 rem;
+  color:#101214;
+  margin-top: 12px;
+}
