@@ -10990,3 +10990,9 @@ section.resume-section .resume-section-content {
   color:#101214;
   margin-top: 12px;
 }
+#sideNav .nav-link.active {
+  color: #ffffff !important;
+  background-color: #C75D3D !important; /* or any highlight color */
+  font-weight: bold;
+  border-radius: 0.25rem;
+}
